@@ -25,3 +25,28 @@
 
 
 
+----------------------------------------------------------
+
+
+*id     maneja una refencia especifica
+*class  si deseas teener un estilo para los mismo componentes entonces puedes class="note" y lo estableceas denttro dell css div.note, estos tendran los mismas caracteristicas
+*style  anterioermente utilizado para aplicar estiloss css
+
+<div>	Defines a section in a document (block-level)
+Para manejar contenedores
+
+<span>	Defines a section in a document (inline)
+idela para pequeños fragmentos de codigo
+
+
+
+<header> - Defines a header for a document or a section
+<nav> - Defines a container for navigation links
+<section> - Defines a section in a document
+<article> - Defines an independent self-contained article
+<aside> - Defines content aside from the content (like a sidebar)
+<footer> - Defines a footer for a document or a section
+<details> - Defines additional details
+<summary> - Defines a heading for the <details> element
+
+
