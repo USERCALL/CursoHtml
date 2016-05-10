@@ -26,7 +26,7 @@
 -------------------------------------------------------------------
 
 
-Algunas propiedades css style="propiedad:valor;"
+Algunas propiedades (atributos de estilo) css style="propiedad:valor;"
 
 Use the "style" attribute for styling HTML elements
 Use "background-color" for background color
@@ -34,6 +34,44 @@ Use "color" for text colors
 Use "font-family" for text fonts
 Use "font-size" for text sizes
 Use "text-align" for text alignment
+
+tags de formateo de texto
+
+<b> 	Defines bold text
+<em> 	Defines emphasized text 
+<i> 	Defines italic text
+<small> 	Defines smaller text
+<strong> 	Defines important text
+<sub> 	Defines subscripted text
+<sup> 	Defines superscripted text
+<ins> 	Defines inserted text
+<del> 	Defines deleted text
+<mark> 	Defines marked/highlighted text
+
+
+    Use the HTML <a> element to define a link
+    Use the HTML href attribute to define the link address 
+    Use the HTML target attribute to define where to open the linked document
+    Use the HTML <img> element (inside <a>) to use an image as a link
+    Use the HTML id attribute (id="value") to define bookmarks in a page
+    Use the HTML href attribute (href="#value") to link to the bookmark
+
+    <a>	Defines a hyperlink
+
+    
+    Use the HTML <img> element to define an image
+    Use the HTML src attribute to define the URL of the image
+    Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+    Use the HTML width and height attributes to define the size of the image
+    Use the CSS width and height properties to define the size of the image (alternatively)
+    Use the CSS float property to let the image float
+    Use the HTML <map> element to define an image-map
+    Use the HTML <area> element to define the clickable areas in the image-map
+    Use the HTML <img>'s element usemap attribute to point to an image-map
+
+<img> 	Defines an image
+<map> 	Defines an image-map
+<area> 	Defines a clickable area inside an image-map
 
 
 

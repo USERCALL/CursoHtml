@@ -40,7 +40,8 @@
 	</head>
 	<body>
 		<!-- etiquetas de tamaño y formato (heading)-->
-		<h1>Titulo</h1>
+		<!-- atributo id sera nombrado mas adelante -->
+		<h1 id ="titulo" >Titulo</h1>
 		<h2>Subtitulo</h2>
 		<h3>sub sub titulo</h3>
 		<h4>texto nivel 4</h4>
@@ -97,16 +98,77 @@
 		
 		<p> ins y del : tipoo de entrada <ins>insertado</ins> o <del>eliminado</del></p>
 		<p>mark : texto subraayado por <mark>marcador</mark>  </p>
-	
+		<hr>
+		<h1>Empezamos con los compoenetes</h1>
 		
-		<!-- Pie de pagina -->
-		<footer>
-			
-			<!-- Genera un espacio estre lineas no necesita ser cerrado-->
-			<br>
-			
-			<!-- <a> tag  de andress para la creacion de vinculos href="direccion a elazar" -->
-			<a href=http://www.w3schools.com>Click redireccionar a pagina w3cSchool</a>
-		</footer>
-	</body>
-</html>
+		<!-- target define como se va a abrir la ventana en nuestro navegador  -->
+		<a href="http://www.w3schools.com" target="_self">link misma ventana por defecto </a>
+		<br>
+		<a href="http://www.w3schools.com" target="_blank">link en una nueva ventana</a>
+		<p>_blank 	Opens the linked document in a new window or tab <br>
+			_self 	Opens the linked document in the same frame as it was clicked (this is default) <br>
+			_parent 	Opens the linked document in the parent frame<br>
+			_top 	Opens the linked document in the full body of the window<br>
+		framename 	Opens the linked document in a named frame</p>
+		
+		<h2>Ademas se pueden añadir en una imagen con vinculo </h2>
+		<p>para elloo coloca el tag a y dentro de ella img</p>
+		<!-- <a href="url"><img src="*.png"></a> -->
+		<a href="http://www.w3schools.com"><img src="http://www.internetacademy.net/about/images/curriculum_pic_02.png"></a>
+		<h2>Bookmarks o saltos de pagina dentro de una pagina </h2>
+		<p>para ello utilizaremos en atributo id="titulo"</p>
+		<a href="#titulo">Link me redirecciona a un link, este link es href="#titulo  </a>
+		<p>
+			<img src="http://www.w3schools.co" alt="alt es utilizado por algunos screens reader para facilitar cuando las personas tienen dificaultades visuales" style="float:right;width:40%;">
+			The image will float to the right of the text.
+		</p>
+		<p>
+			<img src="http://www.internetacademy.net/about/images/curriculum_pic_02.png" alt="Smiley face" style="float:left;width:42px;height:42px;">
+			The image will float to the left of the text.
+		</p>
+		<!-- iamgenes cliqueables con cambio de imagen -->
+		<!-- usemap me informa que se va a manejar aras clickeables -->
+		<img src="http://2.bp.blogspot.com/-_j7vM_Zeu3k/UM2zspt4P9I/AAAAAAAAAJE/W9mFnej1jkY/s1600/Fases+de+la+luna+5.gif" alt="Planets" usemap="#planetmap" style="float:center ;width:700px;height:500px;">
+		<map name="planetmap">
+		<!-- sharpe rect cordendad x1, y1, x2, y2 delimitando un rectangulo -->
+		<area shape="rect" coords="550,0,700,500" alt="Sun" download  href="http://blogs.elespectador.com/la-guia-astral/files/2016/03/el-sol.jpg">
+			<!-- sharpe circle coords x, y, radio -->
+			<area shape="circle" coords="200,250,30" alt="Tierra" href="http://static.batanga.com/sites/default/files/curiosidades.batanga.com/files/Apuesto-que-no-conocias-estos-15-datos-interesantes-sobre-la-Tierra.jpg">
+				</map>
+				
+				<h2> Tablas en html </h2>
+				<p>´la tablas son elemntos para la orgnizacion de datos  las columnas td y las filas tr, se debe escribir  fila por fila es decir, tr y dentro td o th  </p>
+				
+				<table >
+				<caption>Ejemplo de un tabla este es un "caption"</caption>
+					<tr>
+						<th>entorno "table" para crear tablas </th>
+						<th>Titular 2</th>
+						<th> para hacer un table header "th" </th>
+					</tr>
+					<tr>
+						<td> "tr" para crear una fila</td>
+						<td>palabra columana 2</td>
+						<td>"td" para llenar un contenido</td>
+					</tr>
+					<tr>
+						<td>todas las palablas "entre comillas"</td>
+						<td>son tags </td>
+						<td> informacion columna 3, fila 2</td>
+					</tr>
+						
+					</table>
+					<hr>
+					
+					
+					<!-- Pie de pagina -->
+					<footer>
+						
+						<!-- Genera un espacio estre lineas no necesita ser cerrado-->
+						<br>
+						
+						<!-- <a> tag  de andress para la creacion de vinculos href="direccion a elazar" -->
+						<a href=http://www.w3schools.com>Click redireccionar a pagina w3cSchool</a>
+					</footer>
+				</body>
+			</html>
